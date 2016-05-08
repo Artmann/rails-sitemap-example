@@ -1,28 +1,11 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is an example application for displaying a sitemap with Ruby on Rails.
+All the steps needed to create this can be found at http://rormagazine.com/easily-create-sitemap-rails-site/
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Get it running
+
+* Clone the repo
+* `bundle install`
+* `rake db:migrate db:seed`
+* `rails s`
+* Visit `localhost:3000/sitemap.xml`
